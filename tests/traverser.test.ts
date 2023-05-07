@@ -12,7 +12,7 @@ describe('traverser',()=>{
     })
 })
 
-class Node  {
+class Node implements TreeNode  {
     public left;
     public right;
     public value;
